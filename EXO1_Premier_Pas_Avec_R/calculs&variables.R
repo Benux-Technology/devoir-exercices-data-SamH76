@@ -32,3 +32,19 @@ taxe <- (total - remise)*15/100
 # 6- Calcule et affichage du prix_final
 prix_final <- total - remise + taxe
 cat("Prix final :" ,prix_final)
+
+
+#Bonus 1 : vérification du type de chaque variable avec typeof(nomVariable)
+typeof(prix)
+typeof(quantite)
+typeof(total)
+typeof(remise)
+typeof(taxe)
+typeof(prix_final)
+
+#Bonus 2 : infini comme resultat de division par e
+ 
+  #test bonus 2
+resultDivO <- total /0
+resultDivO
+
